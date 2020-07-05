@@ -1,0 +1,18 @@
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: $footer-tc;
+  color: $primary-tc;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

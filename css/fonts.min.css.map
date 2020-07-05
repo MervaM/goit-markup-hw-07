@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../../sass/main.scss"
+        "../sass/fonts.scss"
     ],
     "names": [],
-    "file": "main.min.css"
+    "file": "fonts.min.css"
 }

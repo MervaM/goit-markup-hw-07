@@ -1,0 +1,51 @@
+.work {
+  padding-bottom: 94px;
+  padding-left: 0;
+  padding-right: 0;
+
+  &-item {
+    margin-right: 30px;
+    position: relative;
+  }
+
+  &-item:last-child {
+    margin-right: 0;
+  }
+
+  &-picture {
+    width: 370px;
+  }
+
+  &-title {
+    margin-top: 27px;
+    margin-bottom: 27px;
+    text-transform: uppercase;
+    color: $footer-tc;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+  }
+}
+
+.title-thumb {
+  display: block;
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  bottom: 0;
+  left: 0;
+
+  .section & {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
+}

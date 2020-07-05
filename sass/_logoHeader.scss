@@ -1,0 +1,18 @@
+.logo {
+  display: flex;
+  color: $black;
+
+  &,
+  header {
+    margin-right: 85px;
+  }
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+.logo-head {
+  color: $accent;
+  margin-right: 5px;
+}

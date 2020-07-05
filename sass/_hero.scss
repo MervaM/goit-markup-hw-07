@@ -1,0 +1,39 @@
+.hero {
+  text-align: center;
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, $rgbagradient, $rgbagradient),
+    url("../images/Headerimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 200px;
+  color: $footer-tc;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button-order {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  border: transparent;
+  padding: 0;
+  text-align: center;
+  background: $accent;
+  color: $footer-tc;
+}

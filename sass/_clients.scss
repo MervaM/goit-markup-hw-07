@@ -1,0 +1,59 @@
+.customers-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.customers-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers-logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 30px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.thumb-logo {
+  display: flex;
+  margin: 0;
+  width: 170px;
+  height: 90px;
+  background-color: $footer-tc;
+  border: 1px solid $team;
+  color: $team;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: $cub;
+
+  &:hover {
+    color: $accent;
+    border-color: $accent;
+  }
+}
+
+.company-logo {
+  padding: 0;
+  margin: 0;
+  background-color: $footer-tc;
+  fill: currentColor;
+}
