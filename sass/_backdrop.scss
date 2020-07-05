@@ -9,9 +9,9 @@
   transition: opacity 250ms $cub;
 
   &.is-hidden {
-    /*visibility: hidden;*/
+    visibility: hidden;
     opacity: 1;
-    /*pointer-events: none;*/
+    pointer-events: none;
   }
 }
 
