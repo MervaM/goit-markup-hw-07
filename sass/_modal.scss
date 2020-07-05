@@ -1,0 +1,23 @@
+.modal {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 528px;
+  height: 581px;
+  background: $footer-tc;
+  box-shadow: $bshadow;
+
+  &-text {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: $title-tc;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+}

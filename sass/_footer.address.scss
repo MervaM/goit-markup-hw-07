@@ -1,0 +1,30 @@
+.address {
+  font-style: normal;
+}
+
+.contacts-footer {
+  padding-bottom: 9px;
+  color: $frgba;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.adress-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+  color: $footer-tc;
+
+  &-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

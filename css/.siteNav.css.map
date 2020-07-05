@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,GAAG;EACf,aAAa,EAAE,GAAG;CACnB;;AAED,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CACpB",
-    "sources": [
-        "../sass/.siteNav.scss"
-    ],
-    "names": [],
-    "file": ".siteNav.css"
-}

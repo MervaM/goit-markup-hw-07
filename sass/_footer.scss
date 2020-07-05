@@ -1,0 +1,10 @@
+.footer {
+  padding-top: 45px;
+  background-color: $footerbgc;
+  color: $footer-tc;
+  font-style: normal;
+
+  &-wrapper {
+    display: flex;
+  }
+}

@@ -1,0 +1,17 @@
+.logo {
+  footer {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.18;
+    padding-top: 0;
+  }
+
+  &-studio {
+    color: $footer-tc;
+  }
+
+  &-web {
+    color: $accent;
+    margin-right: 5px;
+  }
+}

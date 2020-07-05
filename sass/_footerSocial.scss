@@ -1,0 +1,128 @@
+.footer-social {
+  display: block;
+  text-align: left;
+  margin-left: 69px;
+}
+
+.footer-link {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.footer-icons {
+  padding: 0;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  fill: currentColor;
+}
+
+.footer-picture {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: $fpctr;
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: $cub;
+
+  &:hover,
+  &:focus {
+    background-color: $accent;
+  }
+}
+
+.footer-item {
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.footer-icon {
+  padding: 0;
+  border: none;
+}
+
+.footer-sub {
+  display: block;
+  margin: 0;
+  margin-left: 94px;
+}
+
+.footer-form {
+  display: flex;
+
+  & input {
+    border: 1px solid $fbrdrinput;
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    background: $footerbgc;
+    padding-left: 16px;
+    margin-right: 0;
+    margin: 0;
+  }
+
+  & input::placeholder {
+    color: $frgba;
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.footer-button {
+  display: block;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+}
+
+.btn {
+  display: inline-block;
+  align-items: flex-start;
+  border: none;
+  margin: 0;
+  padding: 10px 29px;
+  background: $accent;
+  border-radius: 4px;
+  color: $footer-tc;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    background-image: url(../images/icon-send.svg);
+  }
+}
+
+.copyright {
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid $fpctr;
+  padding: 20px 0;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 0.5;
+  color: $copyright;
+}
